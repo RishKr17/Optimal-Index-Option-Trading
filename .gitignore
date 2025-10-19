@@ -1,0 +1,124 @@
+# ==============================
+# Python / Environment
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.python-version
+
+# ==============================
+# Build / Packaging
+# ==============================
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# ==============================
+# Logs / Caches / Coverage
+# ==============================
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+.cache/
+pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jupyter / Notebooks
+# ==============================
+.ipynb_checkpoints/
+.notebooks_cache/
+*.nbconvert.ipynb
+*.nbconvert/
+
+# ==============================
+# Data / Outputs / Figures
+# ==============================
+data/raw/
+data/interim/
+data/processed/
+outputs/
+results/
+figures/
+*.csv
+*.xlsx
+*.xls
+*.dat
+*.pkl
+*.h5
+*.zip
+*.tar.gz
+
+# Simulation artifacts
+simulations/
+backtests/
+runs/
+
+# ==============================
+# IDE / Editor / OS files
+# ==============================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# ==============================
+# Notebooks / Reports
+# ==============================
+*.pdf
+*.pptx
+*.docx
+*.tex
+*.aux
+*.bbl
+*.blg
+*.log
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.toc
+
+# ==============================
+# Temporary scripts / secrets
+# ==============================
+scratch/
+notes/
+*.env
+.env.*
+secrets.json
+config.local.yml
+
+# ==============================
+# Optional - Data Science / PyCache extras
+# ==============================
+.ipython/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+profile_default/
+__snapshots__/
